@@ -1,0 +1,7 @@
+/target/
+!/target/
+/target/*
+!/target/release/
+/target/release/*
+!/target/release/rust_api_pdf_to_ocr_simplefile
+*.lock
