@@ -1,9 +1,9 @@
-FROM debian:bullseye
+FROM debian:bullseye-slim
 
 RUN apt-get update && apt-get install -y \
     tesseract-ocr \
     tesseract-ocr-por \
-    libssl1.1 \
+    #libssl1.1 \
     ca-certificates \
     && update-ca-certificates \    
     && rm -rf /var/lib/apt/lists/*
